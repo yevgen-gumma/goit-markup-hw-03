@@ -45,6 +45,10 @@ img {
   padding-bottom: 24px;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -53,6 +57,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-left: 156px;
+}
+
+.header-navigation {
+  display: flex;
 }
 
 span {
@@ -63,6 +72,13 @@ span {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+  margin-right: 332px;
 }
 
 .navigation-list-link {
@@ -81,6 +97,11 @@ span {
 
 .address {
   font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-list-link {
@@ -110,10 +131,15 @@ span {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+}
+
+.hero-container {
+  background: var(--NAVY-BLUE, #2e2f42);
+  padding: 188px 472px 292px 472px;
 }
 
 .hero-title {
-  background: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
 }
 
@@ -126,6 +152,8 @@ span {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .main-title-button:hover,
@@ -141,12 +169,26 @@ span {
   letter-spacing: 0.02em;
 }
 
+.futures-container {
+  padding: 120px 156px;
+}
+
+.future-list {
+  display: flex;
+  gap: 24px;
+}
+
+.future-unit {
+  width: calc((100% - 24px * 3) / 4);
+}
+
 .future-items {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .futures-text {
@@ -164,8 +206,20 @@ span {
   text-transform: capitalize;
 }
 
+.our-team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
 .our-team-card {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  padding-bottom: 32px;
+  text-align: center;
 }
 
 .our-team-names {
@@ -174,6 +228,8 @@ span {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .our-team-position {
@@ -182,8 +238,26 @@ span {
   letter-spacing: 0.02em;
 }
 
+.our-team-title {
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
 .our-team {
-  background: var(--CLOUD, #f4f4fd);
+  background-color: var(--CLOUD, #f4f4fd);
+  padding-bottom: 120px;
+}
+
+.our-portfolio {
+  padding-top: 120px;
+}
+
+.our-portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 120px;
 }
 
 .our-portfolio-title {
@@ -194,6 +268,13 @@ span {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.our-portfolio-card {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+  padding-bottom: 32px;
 }
 
 .our-portfolio-apps {
@@ -202,6 +283,8 @@ span {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .our-portfolio-description {
@@ -209,8 +292,11 @@ span {
   letter-spacing: 0.02em;
 }
 
-.footer {
+.footer-container {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 101px;
+  padding-left: 156px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -232,4 +318,5 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 17px;
 }
