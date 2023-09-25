@@ -34,8 +34,8 @@ img {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -45,8 +45,6 @@ img {
 
 .header-container {
   display: flex;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .header-logo {
@@ -103,7 +101,6 @@ span {
   display: flex;
   gap: 40px;
   padding: 24px 0;
-  margin-right: 156px;
 }
 
 .navigation-list-item {
